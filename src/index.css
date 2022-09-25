@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+	--primary-color-1: #240d57;
+	--primary-color-2: #501fc1;
+	--primary-color-3: #8456ec;
+	--primary-color-4: #e87bf8;
+
+	--secondary-color-1: #ccb6ff;
+	--secondary-color-2: #ede5ff;
+	--secondary-color-3: #f6f2ff;
+
+	--alert-color-1: #ffd7e0;
+	--alert-color-2: #e61445;
+	--alert-color-3: #d3ffe2;
+	--alert-color-4: #00805e;
+
+	--neutral-color-1: #4f4f4f;
+	--neutral-color-2: #828282;
+	--neutral-color-3: #bdbdbd;
+	--neutral-color-4: #e0e0e0;
+	--neutral-color-5: #f2f2f2;
+	--neutral-color-5: #fbfaff;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/* Just Doing this in order to save time for theming stuff  */
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+	display: flex !important;
+	margin-block: 2rem !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+	display: flex !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+	font-size: 2rem !important;
 }

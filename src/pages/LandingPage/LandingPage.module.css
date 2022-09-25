@@ -1,0 +1,48 @@
+.landingPageWrapper {
+	height: 100vh;
+	width: 100%;
+	background-color: var(--secondary-color-3);
+	padding: 15vw 15vw;
+}
+
+.landingPageWrapper > .landingPageHeading {
+	text-align: center;
+}
+
+.landingPageWrapper > .landingPageHeading > h1 {
+	color: var(--primary-color-1);
+	font-size: 3.6rem;
+	margin-block: 1rem;
+	line-height: 36px;
+}
+
+.landingPageWrapper > .landingPageHeading > h1 > span {
+	display: block;
+	background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.landingPageWrapper > .landingPageHeading > p {
+	color: var(--neutral-color-1);
+	font-weight: 300;
+	font-size: 1.6rem;
+}
+
+.landingPageImage {
+	margin-block: 3rem;
+	text-align: center;
+}
+
+.landingPageButton {
+	text-align: center;
+}
+.landingPageButton button {
+	background: linear-gradient(90deg, var(--primary-color-3) 3.25%, var(--primary-color-4) 100%);
+	border-radius: 10px;
+	color: #fff;
+	padding: 1.6rem;
+	border: none;
+	width: 70%;
+}

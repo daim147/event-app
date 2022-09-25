@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import CreateEvent from './pages/CreateEvent';
+import LandingPage from './pages/LandingPage';
+import Event from './pages/Event';
+import { useState } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [eventData, setEventData] = useState(null);
+	return (
+		<Router>
+			<Switch>
+				<Route path='/' exact>
+					<LandingPage />
+				</Route>
+				<Route path='/create' exact>
+					<CreateEvent sendEventData={setEventData} />
+				</Route>
+				<Route path='/event' exact>
+					<Event eventData={eventData} />
+				</Route>
+			</Switch>
+		</Router>
+	);
 }
 
 export default App;
