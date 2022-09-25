@@ -35,15 +35,18 @@ html {
 	font-size: 62.5%;
 }
 
-/* Just Doing this in order to save time for theming stuff  */
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+/* Just Doing this in order to save time from theming stuff  */
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,
+.MuiTextField-root {
 	display: flex !important;
 	margin-block: 2rem !important;
 }
-.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.css-1v4ccyo {
 	display: flex !important;
 }
 
-.css-i4bv87-MuiSvgIcon-root {
+.css-i4bv87-MuiSvgIcon-root,
+.css-vubbuv {
 	font-size: 2rem !important;
 }

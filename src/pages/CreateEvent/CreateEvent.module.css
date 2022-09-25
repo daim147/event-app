@@ -1,5 +1,5 @@
 .createEventWrapper {
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 	background-color: var(--secondary-color-3);
 	padding: 10vw 15vw;
